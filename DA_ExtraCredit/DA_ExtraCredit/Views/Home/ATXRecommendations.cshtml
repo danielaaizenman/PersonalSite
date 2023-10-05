@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dani's' ATX Food Recommendations</title>
+    <style>
+        body {
+            font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow', sans-serif, sans-serif;
+            background-color: #ffe6f0; /* Light pink background */
+            color: #0033aa; /* Blue text color */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff66b2; /* Dark pink header background */
+            color: white;
+            text-align: center;
+            padding: 70px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        /* Sections styling */
+        .section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Sub-sections styling */
+        .sub-section {
+            margin-top: 20px;
+        }
+
+        /* Links styling */
+        a {
+            color: #ff66b2; /* Pink link color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Restaurant categories */
+        .restaurant-category {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        /* Images */
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+            .image-container img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 5px;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My ATX Recommendations</h1>
+        <p>Dani's favroite places to eat or drink at in Austin!</p>
+    </header>
+
+    <div class="section">
+        <h2>Restaurants</h2>
+
+        <!-- Brunch -->
+        <div class="sub-section">
+            <h3 class="restaurant-category">Brunch</h3>
+            <!-- Brunch Images -->
+            <div class="image-container" style="text-align: center;">
+                <div class="image" style="max-width: 300px; display: inline-block; padding: 0; margin: 0;">
+                    <img src="~/images/brunch1.jpg" alt="Two Hands">
+                    <p>Two Hands</p>
+                </div>
+                <div class="image" style="max-width: 300px; display: inline-block; padding: 0; margin: 0;">
+                    <img src="~/images/brunch2.jpg" alt="Cafe No Se">
+                    <p>Cafe No Se</p>
+                </div>
+            </div>
+            <!-- Bullets for Brunch -->
+            <p class="other-options">Additional Recommendations:</p>
+            <ul>
+                <li>Mattie's</li>
+                <li>Swedish Hill</li>
+                <li>Picnik</li>
+                <li>Tiny Boxwoods</li>
+                <li>Paperboy</li>
+            </ul>
+
+            <!-- Lunch -->
+            <div class="sub-section">
+                <h3 class="restaurant-category">Lunch</h3>
+                <!-- Lunch Images -->
+                <div class="image-container" style="text-align: center;">
+                    <div class="image" style="max-width: 300px; display: inline-block; padding: 0; margin: 0;">
+                        <img src="~/images/lunch1.jpg" alt="Lunch 1">
+                        <p>Perla's</p>
+                    </div>
+                    <div class="image" style="max-width: 300px; display: inline-block; padding: 0; margin: 0;">
+                        <img src="~/images/lunch2.jpg" alt="Lunch 2">
+                        <p>Local Foods</p>
+                    </div>
+                </div>
+                <!-- Bullets for Lunch -->
+                <p class="other-options">Additional Recommendations:</p>
+                <ul>
+                    <li>Junes All Day</li>
+                    <li>Flower Child</li>
+                    <li>Elizabeth Street Cafe</li>
+                    <li>The Well</li>
+                    <li>Launderette</li>
+                </ul>
+
+                <!-- Dinner -->
+                <div class="sub-section">
+                    <h3 class="restaurant-category">Dinner</h3>
+                    <!-- Dinner Images -->
+                    <div class="image-container" style="text-align: center;">
+                        <div class="image" style="max-width: 300px; display: inline-block; padding: 0; margin: 0;">
+                            <img src="~/images/dinner1.jpg" alt="Neighborhood Sushi">
+                            <p>Neighborhood Sushi</p>
+                        </div>
+                        <div class="image" style="max-width: 300px; display: inline-block; padding: 0; margin: 0;">
+                            <img src="~/images/dinner2.jpg" alt="Aba">
+                            <p>Aba</p>
+                        </div>
+                    </div>
+                    <!-- Bullets for Dinner -->
+                    <p class="other-options">Additional Recommendations:</p>
+                    <ul>
+                        <li>Soto</li>
+                        <li>Wax Myrtles</li>
+                        <li>Qi</li>
+                        <li>Sammies Italian</li>
+                        <li>ATX Cocina</li>
+                    </ul>
+                <!-- Bars -->
+                    <div class="sub-section">
+                        <h3 class="restaurant-category">Bars</h3>
+                        <!-- Bar Images -->
+                        <div class="image-container" style="text-align: center;">
+                            <div class="image" style="max-width: 300px; display: inline-block; padding: 0; margin: 0;">
+                                <img src="~/images/bar1.jpg" alt="Bar 1">
+                                <p>Here nor There</p>
+                            </div>
+                            <div class="image" style="max-width: 300px; display: inline-block; padding: 0; margin: 0;">
+                                <img src="~/images/bar2.jpg" alt="Bar 2">
+                                <p>Tipsy Alchemist</p>
+                            </div>
+                        </div>
+                        <!-- Bullets for Bars -->
+                        <p class="other-options">Additional Recommendations:</p>
+                        <ul>
+                            <li>Daydreamer</li>
+                            <li>Devil Maycare</li>
+                            <li>Signbar</li>
+                            <li>Zanzibar</li>
+                            <li>Roosevelt Room</li>
+                        </ul>
+                    </div>
+
+                    
+
+</body>
+</html>
+
+<div>
+    <a href="@Url.Action("Index", "Home")">Back to Home</a>
+</div>

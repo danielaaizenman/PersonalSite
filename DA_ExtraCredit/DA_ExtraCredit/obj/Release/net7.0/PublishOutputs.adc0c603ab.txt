@@ -1,0 +1,8 @@
+/Users/danielaaizenman/Desktop/MIS 333k/DA_ExtraCredit/DA_ExtraCredit/obj/Release/net7.0/PubTmp/Out/DA_ExtraCredit
+/Users/danielaaizenman/Desktop/MIS 333k/DA_ExtraCredit/DA_ExtraCredit/obj/Release/net7.0/PubTmp/Out/appsettings.Development.json
+/Users/danielaaizenman/Desktop/MIS 333k/DA_ExtraCredit/DA_ExtraCredit/obj/Release/net7.0/PubTmp/Out/appsettings.json
+/Users/danielaaizenman/Desktop/MIS 333k/DA_ExtraCredit/DA_ExtraCredit/obj/Release/net7.0/PubTmp/Out/libman.json
+/Users/danielaaizenman/Desktop/MIS 333k/DA_ExtraCredit/DA_ExtraCredit/obj/Release/net7.0/PubTmp/Out/DA_ExtraCredit.dll
+/Users/danielaaizenman/Desktop/MIS 333k/DA_ExtraCredit/DA_ExtraCredit/obj/Release/net7.0/PubTmp/Out/DA_ExtraCredit.deps.json
+/Users/danielaaizenman/Desktop/MIS 333k/DA_ExtraCredit/DA_ExtraCredit/obj/Release/net7.0/PubTmp/Out/DA_ExtraCredit.runtimeconfig.json
+/Users/danielaaizenman/Desktop/MIS 333k/DA_ExtraCredit/DA_ExtraCredit/obj/Release/net7.0/PubTmp/Out/DA_ExtraCredit.pdb

@@ -1,0 +1,148 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center">Welcome to my Home Page</h1>
+
+<h4 class="text-center">My name is Dani Aizenman and I am a senior at UT Austin!</h4>
+<div class="align-self-sm-center">
+    <img class="w-50 h-auto rounded mx-auto d-block"
+         src="~/images/headshot.jpg" alt="Dani Aizenman's Headshot'" title="Dani Aizenman's Headshot'" />
+</div>
+<br />
+<div class="text-center">
+    <p>The best way to contact me is by email: daaizenman@gmail.com.</p>
+</div>
+    <br />
+    <div class="text-center">
+        <div class="btn-group-lg">
+            <a asp-action="About" class="btn btn-primary">About Me</a>
+            <a asp-action="ATXRecommendations" class="btn btn-primary">My ATX Recommendations</a>
+            <a asp-action="Resume" class="btn btn-primary">Dani's Resume</a>
+        </div>
+    </div>
+    <hr class="hr-danger" />
+
+    <!--TODO:  Add a table of Bevo's classes here!-->
+    <h2 class="text-center">My Spring 2023 Class Schedule</h2>
+    <!--HINT: Here's a good website for some help on tables: https://www.w3schools.com/html/html_tables.asp-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Class Schedule</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 80%;
+                margin: 20px auto;
+            }
+
+            th, td {
+                border: 1px solid #ff66b2;
+                padding: 10px;
+                text-align: left;
+            }
+
+            th {
+                background-color: #ff66b2;
+                color: white;
+            }
+
+            tr:nth-child(even) {
+                background-color: #ffe6f0;
+            }
+
+            tr:nth-child(odd) {
+                background-color: #fff0f5;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Unique Number</th>
+                <th>Course Title</th>
+                <th>Building</th>
+                <th>Room</th>
+                <th>Days</th>
+                <th>Time</th>
+                <th>Instructor</th>
+            </tr>
+            <tr>
+                <td>04815</td>
+                <td>MIS 333K - WEB APPLICATION DEVELOPMENT</td>
+                <td>UTC</td>
+                <td>4.110</td>
+                <td>MW</td>
+                <td>11:00am-12:30pm</td>
+                <td>Rebecca Robertson</td>
+            </tr>
+            <tr>
+                <td>04905</td>
+                <td>MIS 375 - STRATEGIC INFORMATION TECHNOLOGY MANAGEMENT</td>
+                <td>SZB</td>
+                <td>4.414</td>
+                <td>MW</td>
+                <td>9:30am-11:00am</td>
+                <td>Russ Finney</td>
+            </tr>
+            <tr>
+                <td>06405</td>
+                <td>MKT 337 - PRINCIPLES OF MARKETING</td>
+                <td>WEB-BASED</td>
+                <td>ZOOM</td>
+                <td>MW</td>
+                <td>3:30pm-5:00pm</td>
+                <td>Hector Gomez Macfarland</td>
+            </tr>
+            <tr>
+                <td>32155</td>
+                <td>ANT 304 - INTRO ARCHAEOLICAL STDUDIESS: PREHISTORY</td>
+                <td>WCH WCP</td>
+                <td>1.120 4.174</td>
+                <td>MW TH</td>
+                <td>8:00am-9:00am 3:30pm-4:30pm</td>
+                <td>Fred Valdez</td>
+            </tr>
+            <tr>
+                <td>12150</td>
+                <td>EDP 350L - HUMAN SEXUALITY-</td>
+                <td>WEB-BASED</td>
+                <td>ZOOM</td>
+                <td>M</td>
+                <td>2:00pm-3:30pm</td>
+                <td>Karen Rayne</td>
+            </tr>
+            <tr>
+                <td>04830</td>
+                <td>MIS 173 - BLOCKCHAIN</td>
+                <td>UTC</td>
+                <td>3.112</td>
+                <td>T</td>
+                <td>4:00pm-5:00pm</td>
+                <td>Joseph Hirsch</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+<br />
+<br />
+<h2 class="text-center">TED Talk</h2>
+<p>Founder of Girls Who Code, Reshma Saujani, talks about the importance of teaching girls bravery, not perfection.</p>
+<div class="container">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div style="max-width:854px">
+                <div style="max-width:854px">
+                    <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/reshma_saujani_teach_girls_bravery_not_perfection" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>

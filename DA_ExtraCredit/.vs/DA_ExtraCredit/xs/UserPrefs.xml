@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{7BB78F84-C7F6-4B72-91CC-327821B499CA}|http">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/danielaaizenman/Desktop/MIS 333k/DA_ExtraCredit/DA_ExtraCredit/Views/Home/Index.cshtml" relfile="DA_ExtraCredit/Views/Home/Index.cshtml" line="129" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DA_ExtraCredit/Views/Home/About.cshtml">
+    <Files>
+      <File FileName="DA_ExtraCredit/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="DA_ExtraCredit/Views/Home/Index.cshtml" Line="43" Column="21" />
+      <File FileName="DA_ExtraCredit/Views/Shared/_Layout.cshtml" Line="11" Column="48" />
+      <File FileName="DA_ExtraCredit/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="DA_ExtraCredit/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="DA_ExtraCredit/Program.cs" />
+      <File FileName="DA_ExtraCredit/Views/Home/ATXRecommendations.cshtml" />
+      <File FileName="DA_ExtraCredit/Views/Home/About.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DA_ExtraCredit" expanded="True">
+            <Node name="DA_ExtraCredit" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="About.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="files" expanded="True" />
+                <Node name="images" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DA__ExtraCredit PreferredExecutionTarget="/Applications/Google Chrome 2.app" />
+</Properties>

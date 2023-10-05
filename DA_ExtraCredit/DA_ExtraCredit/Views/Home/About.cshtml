@@ -1,0 +1,158 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+@{
+    ViewData["Title"] = "About Me";
+}
+
+<div class="container text-center">
+    <h1>About Me</h1>
+    <p>
+        My name is Daniela Aizenman, and I am originally from Mexico City but was raised in Miami, Florida. Both my parents, my brother, and I were born in Mexico City, but we moved to the United States in 2005 due to my dad's job. I am the oldest of three siblings; I have a younger brother who is 18 years old and a freshman at GW University, and a 15-year-old sister who is a sophomore in high school. I also have a Mini Bernadoodle named Lola. We got her during quarantine, so she is a very shy puppy. At UT, I am a senior majoring in Management Information Systems at the McCombs School of Business. This past Spring semester, I studied abroad in Barcelona, Spain, where I had the amazing opportunity of traveling to different countries every weekend! I also had the opportunity of interning at PwC this past summer in New York City as a Product Management Intern on the Blockchain Team. I am now excited to be back in Austin for my final year at UT!
+    </p>
+
+
+    <!-- Pictures Section -->
+    <div class="image-container">
+        <div class="image">
+            <img src="~/images/friends.jpeg" alt="Picture 1" />
+        </div>
+        <div class="image">
+            <img src="~/images/lola.jpg" alt="Picture 2" />
+        </div>
+        <div class="image">
+            <img src="~/images/siblings.jpg" alt="Picture 3" />
+        </div>
+    </div>
+
+    <!-- Expandable Dropdowns -->
+    <div class="dropdown">
+        <h2 class="expand-heading">My Favorite Artists<i class="fas fa-chevron-down"></i></h2>
+        <div class="dropdown-content">
+            <ul>
+                <li>Morgan Wallen</li>
+                <li>Justin Bieber</li>
+                <li>John Mayer</li>
+                <li>Luke Combs</li>
+                <li>Drake</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <h2 class="expand-heading">My Favorite Foods <i class="fas fa-chevron-down"></i></h2>
+        <div class="dropdown-content">
+            <ul>
+                <li>Sushi</li>
+                <li>French Fries</li>
+                <li>Sesame Chicken</li>
+                <li>Soup Dumplings</li>
+                <li>Penne alla Vodka</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <h2 class="expand-heading">My Hobbies<i class="fas fa-chevron-down"></i></h2>
+        <div class="dropdown-content">
+            <ul>
+                <li>Going to the beach</li>
+                <li>Yoga Sculpt at CorePower Yoga</li>
+                <li>Listening to live music</li>
+                <li>Hanging out with my friends</li>
+                <li>Wakesurfing</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Add these styles to your existing CSS */
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .image {
+        flex: 1;
+        margin: 0 10px;
+    }
+
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+    .dropdown {
+        cursor: pointer;
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .dropdown-content {
+        display: none;
+    }
+
+    .dropdown h2 {
+        color: #007bff;
+        margin: 0;
+    }
+
+    .dropdown.active .dropdown-content {
+        display: block;
+    }
+
+    .dropdown h3 {
+        margin-top: 10px;
+    }
+
+    .dropdown ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+    /* Style for the expand-heading class */
+    .expand-heading {
+        position: relative;
+        cursor: pointer;
+        display: inline-block;
+        margin: 0;
+        padding-right: 20px; /* Space for the arrow */
+    }
+
+    /* Style for the arrow class */
+    .arrow {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        font-size: 12px;
+    }
+    /* CSS styles for the ul and li elements */
+    ul {
+        list-style-position: inside;
+        font-size: 24px; /* Adjust the font size as needed */
+    }
+
+    /* Style for list items */
+    li {
+        margin-left: 16px; /* Adjust the left margin for the list items */
+    }
+
+</style>
+
+<script>// JavaScript to toggle dropdown content
+    const dropdowns = document.querySelectorAll('.dropdown');
+
+    dropdowns.forEach((dropdown) => {
+        const toggle = dropdown.querySelector('h2');
+        toggle.addEventListener('click', () => {
+            dropdown.classList.toggle('active');
+        });
+    });</script>
+<div>
+    <a href="@Url.Action("Index", "Home")">Back to Home</a>
+</div>
